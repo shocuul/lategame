@@ -32,6 +32,24 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+
+gem 'devise'
+gem 'high_voltage'
+
+gem 'foundation-rails'
+
+gem 'activerecord-tableless'
+
+gem 'figaro'
+
+gem 'simple_form'
+
+group :development do 
+	gem 'better_errors'
+	gem 'quiet_assets'
+	gem 'rails_layout'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
